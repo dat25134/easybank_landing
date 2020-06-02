@@ -1,0 +1,210 @@
+
+@import url("https://fonts.google.com/specimen/Public+Sans");
+:root{
+    --primary-darkblue: hsl(233, 26%, 24%);
+    --primary-limegreen: hsl(136, 65%, 51%);
+    --primary-brightCyan: hsl(192, 70%, 51%);
+    --neutrual-grayishblue: hsl(233, 8%, 62%);
+    --neutrual-lightgrayishblue: hsl(220, 16%, 96%);
+    --neutrual-verylightgray: hsl(0, 0%, 98%);
+    --neutrual-white : hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: "Public Sans",sans-serif;
+}
+.container .header {
+    display: flex;
+    display: fixed;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: var(--neutrual-white);
+    
+   
+}
+.container .header .logo{
+    text-align: center;
+    flex: 20%;
+    padding: 20px 50px;
+}
+.container .header ul{
+    display: flex;
+    flex: 50%;
+}
+.container .header .btn{
+    flex: 30%;
+    padding: 20px 50px;
+    text-align: center;
+}
+.button_form{
+    height: 40px;
+    width: 40%;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg,var(--primary-limegreen),var(--primary-brightCyan));
+    border: none;
+    color: white;
+}
+.container .header ul li{
+    list-style: none;
+    padding: 20px 10px;
+    
+}
+.container .header ul li a:visited{
+    color: gray;
+}
+.container .header ul li a{
+    text-decoration: none;
+}
+.container .part1 {
+    display: flex;
+    background-image: linear-gradient(var(--neutrual-lightgrayishblue),var(--neutrual-verylightgray));
+    height: 700px;
+}
+.container .part1_left{
+    flex: 30%;
+   
+}
+.container .part1_right{
+    flex: 70%;
+    background-image: url("images/bg-intro-desktop.svg");
+    background-position-y: -180px ;
+    
+    
+}
+.container .part1_right img{
+    position: absolute;
+    top: -60px;
+    left: 700px;
+    z-index: 1;
+}
+
+.container .part1 .part1_left{
+    padding: 350px 100px ;
+}
+
+.container .part1 .part1_left h2{
+    color: hsl(233, 26%, 24%);
+    font-size: 250%;
+    margin-bottom: 30px;
+}
+
+.container .part1 .part1_left p{
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 30px;
+}
+
+.container .part2 {
+    background-image: linear-gradient(var(--neutrual-lightgrayishblue),var(--neutrual-verylightgray));
+    height: 450px;
+    padding: 100px 50px ;
+}
+.part2_bottom{
+    display: flex;
+    color: var(--neutrual-grayishblue);
+    
+}
+.part2_bottom h2{
+    color: hsl(233, 26%, 24%);
+    margin: 20px 0px;
+}
+.part2_bottom p{
+    padding-right: 40px;
+}
+.part2_top{
+    margin-bottom: 50px;
+    color: var(--primary-darkblue);
+}
+.part2_top p{
+    margin-top: 20px;
+    padding-right: 680px;
+    color: var(--neutrual-grayishblue);
+}
+.container .part3{
+    background-image: linear-gradient(var(--neutrual-lightgrayishblue),var(--neutrual-verylightgray));
+    height: 450px;
+    padding: 70px 50px ;
+    display: inline-table;
+}
+.container .part3 .part3_bottom{
+    display: flex;
+    
+}
+.container .part3 .part3_bottom img{
+    width: 100%;
+    height: 180px;
+}
+.container .part3 h1 {
+    color: hsl(233, 26%, 24%);
+    margin-bottom: 50px;
+}
+.container .part3 h2{
+    padding: 20px;
+    color: hsl(233, 26%, 24%)
+}
+.container .part3 h5 {
+    margin: 25px 0px;
+    margin-left: 20px;
+    color: hsl(233, 8%, 62%);
+}
+.container .part3 p {
+    padding: 0px 20px;
+    color: hsl(233, 8%, 62%);
+
+}
+.content {
+    background-color: var(--neutrual-white);
+    margin-right: 50px;
+}
+.footer{
+    background-image: linear-gradient(90deg,var(--primary-limegreen),var(--primary-brightCyan));
+    display: flex;
+}
+.footer_part1{
+    flex: 30%;
+    padding: 50px;
+}
+.footer_part2{
+    flex: 30%;
+    display: flex;
+    padding: 50px;
+    line-height: 30px;
+}
+.footer_part3 {
+    flex: 40%;
+    padding: 50px;
+}
+.footer_part3 button {
+    height: 40px;
+    width: 40%;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg,var(--primary-limegreen),var(--primary-brightCyan));
+    color: white;
+}
+.footer_part3 p {
+    color: hsl(233, 53%, 49%);
+    margin-top: 40px;
+}
+.icon {
+    margin-top: 50px;
+
+}
+.icon img{
+    margin-left: 10px;
+}
+.footer_part2 .left{
+    margin-right: 50px;
+}
+.footer_part2 a{
+    text-decoration: none;
+}
+.footer_part2 a:visited{
+    color: hsl(233, 53%, 49%);
+}
+.part1_right img{
+    
+}
